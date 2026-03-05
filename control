@@ -1,0 +1,9 @@
+Package: com.mqqaxy.fakelocationpro
+Name: Fake Location Pro
+Version: 1.0
+Architecture: iphoneos-arm64e
+Description: 虚拟定位测试插件 - arm64e 强制版
+Maintainer: mq
+Author: mq
+Section: Tweaks
+Depends: mobilesubstrate

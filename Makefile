@@ -7,7 +7,7 @@ THEOS_PACKAGE_SCHEME = rootless
 
 TWEAK_NAME = FakeLocationPro
 FakeLocationPro_FILES = Tweak.x
-FakeLocationPro_FRAMEWORKS = UIKit CoreLocation MapKit
-FakeLocationPro_LDFLAGS = -dynamiclib -Wl,-ld_classic
+FakeLocationPro_FRAMEWORKS = UIKit
+FakeLocationPro_LDFLAGS = -dynamiclib -Wl,-ld_classic -Wl,-no_warn_duplicate_libraries
 
 include $(THEOS_MAKE_PATH)/tweak.mk
